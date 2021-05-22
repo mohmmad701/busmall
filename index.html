@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Mall</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       
+        <h1> <marquee>BusMall</marquee></h1>
+
+    </header>
+
+    <main>
+
+
+        <div id="divder">
+        <label for="userInput">The number of attempts</label>
+        <br>
+        <input type="number" placeholder="Insert the number of attempts" id="userInput" name="userInput">
+        <br>
+         <button id="submit-btn" type="submit">OK</button>
+        </div>
+
+   
+        <div id="container-div">
+
+<!--containar for three images-->
+            <div id="img-div">
+                <img id="left-image" src="" alt="">
+                <img id="center-image" src="" alt="">
+                <img id="rigth-image" src="" alt="">
+            </div>
+            <button id="show-Result" type="submit" >Show Result</button>
+
+            <p id="result-para">The final result:</p>
+            <div id="result-div">
+                    <ul id="result-list"></ul>
+            </div>
+    </div>
+
+    <div>
+        <canvas id="myChart" width="400" height="100" margin-left= "200"></canvas>
+    </div>
+    </main>
+
+    <footer>
+
+
+        <h4> &copy; MohammadRiziq2021</h4>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="app.js"></script>
+</body>
+</html>
